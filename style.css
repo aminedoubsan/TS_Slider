@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Top_Text{
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+.Slider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SliderContainer {
+  width: 600px;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SliderContainer_Images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.Slider_Image {
+  width: 100%;
+  height: auto;
+}
