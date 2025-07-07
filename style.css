@@ -12,6 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 .SliderContainer {
   width: 600px;
